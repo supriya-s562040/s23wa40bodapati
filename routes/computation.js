@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
     let t=Math.random(x);
     let n=Math.round(x);
     
-  res.render('computation', { x:x,log:r, cos:t, floor:n});
+  res.render('computation', { x:x,fround:r, random:t, round:n});
 });
 
 module.exports = router;
